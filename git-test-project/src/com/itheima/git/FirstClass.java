@@ -10,6 +10,7 @@ public class FirstClass {
 
     private String name;
 
+    private Integer idCard;
 
     private String password;
 
@@ -35,6 +36,14 @@ public class FirstClass {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Integer getIdCard() {
+        return idCard;
+    }
+
+    public void setIdCard(Integer idCard) {
+        this.idCard = idCard;
     }
 
     public static void main(String[] args) {
